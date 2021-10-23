@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="IntroductionCollectionViewCell" customModule="Wish_Tracker" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="286" height="186"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="286" height="186"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8BH-Pe-F9B">
+                        <rect key="frame" x="0.0" y="0.0" width="286" height="186"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="saZ-hi-BJS">
+                        <rect key="frame" x="20" y="150.5" width="246" height="20.5"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="saZ-hi-BJS" secondAttribute="trailing" constant="20" id="8sr-O5-FAe"/>
+                <constraint firstItem="saZ-hi-BJS" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="AJg-Ee-Wk0"/>
+                <constraint firstAttribute="bottom" secondItem="saZ-hi-BJS" secondAttribute="bottom" constant="15" id="Qu8-ds-XWn"/>
+                <constraint firstAttribute="bottom" secondItem="8BH-Pe-F9B" secondAttribute="bottom" id="RqA-mz-cYr"/>
+                <constraint firstItem="8BH-Pe-F9B" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="YRd-oo-QEl"/>
+                <constraint firstItem="8BH-Pe-F9B" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="bBM-eI-uN7"/>
+                <constraint firstAttribute="trailing" secondItem="8BH-Pe-F9B" secondAttribute="trailing" id="ksc-xe-5cS"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="286" height="186"/>
+            <connections>
+                <outlet property="imgIntroduction" destination="8BH-Pe-F9B" id="pQd-ef-4r7"/>
+                <outlet property="lblInfo" destination="saZ-hi-BJS" id="16D-xf-Dmf"/>
+            </connections>
+            <point key="canvasLocation" x="14" y="80"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,16 @@
+PODS:
+  - LocationPicker (1.4.2)
+
+DEPENDENCIES:
+  - LocationPicker
+
+SPEC REPOS:
+  trunk:
+    - LocationPicker
+
+SPEC CHECKSUMS:
+  LocationPicker: 9af49409ec3ca13fdf4bf6b39e1a3c7dec029f4a
+
+PODFILE CHECKSUM: eb088da3a38a6c1670f1742ede42e9bd3e2f0e71
+
+COCOAPODS: 1.10.2
